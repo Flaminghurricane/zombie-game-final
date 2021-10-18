@@ -281,7 +281,7 @@ function mouseClicked(){
 
 
 function obstacles(){ 
-  if(frameCount%50===0){  
+  if(frameCount%100===0){  
     zombie1=createSprite(width,height-90,20,20); 
     zombie1.velocityX=-3;  
     zombie1.lifetime=500; 
